@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Conto Bootstap</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50" >
+
+	<!-- NAVBAR -->
+	
+	
+	<div class="header">
+	<div class="container">
+
+		<nav class="navbar navbar-default">
+		  <div class="container-fluid">
+		    <div class="navbar-header">
+		      <a class="navbar-brand">LOGO</a>
+		    </div>
+		    <ul class="nav navbar-nav">
+		      <li class="active"><a href="#">Getting started</a></li>
+		      <li><a href="#">CSS</a></li>
+		      <li><a href="#">Components 2</a></li>
+		      <li><a href="#">JavaScripts</a></li>
+		      <li><a href="#">Customize</a></li>
+		    </ul><!-- nav navbar-nav -->
+
+		    <!-- LOGIN AND REGIST -->
+		    <ul class="nav navbar-nav navbar-right">
+		      <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+		      <li><a data-toggle="modal" data-target="#myModal" href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+    		</ul>
+    </div>
+    		<div class="container">
+			
+			  <!-- Modal -->
+			  <div class="modal fade" id="myModal" role="dialog">
+			    <div class="modal-dialog">
+			    
+			      <!-- Modal content-->
+			      <div class="modal-content">
+			        <div class="modal-header">
+			          <button type="button" class="close" data-dismiss="modal">&times;</button>
+			          <h4 class="modal-title">Access</h4>
+			        </div>
+
+			        <ul class="nav nav-tabs">
+					    <li class="active"><a href="#">Home</a></li>
+					    <li><a href="#">Menu 2</a></li>
+				  	</ul>
+
+			        <div class="modal-body">
+			          <form>
+					    <div class="form-group">
+					      <label for="email">Username:</label>
+					      <input type="email" class="form-control" id="email" placeholder="Enter email">
+					    </div>
+					    <div class="form-group">
+					      <label for="pwd">Password:</label>
+					      <input type="password" class="form-control" id="pwd" placeholder="Enter password">
+					    </div>
+					    </form>
+			        </div>
+			        <div class="modal-footer">	
+			        	<a href="#">Click here if you forgot your password!</a>
+				        <button type="button" class="btn btn-primary" data-dismiss="modal">Login</button>
+				        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			        </div>
+			     </div>
+			      
+			    </div>
+			  </div>
+		</div>
+
+		  </div><!-- container-fluid -->
+
+		</nav><!-- navbar navbar-default -->
+	
+	</div><!-- header -->
+	<div class="container" >
+		
+	
+	<div class="row" > 
+	<!-- JUMBOTRON -->
+	<div id="MOVE">
+		<div class="jumbotron">
+			<h1 style="color=#563d7c" >Getting started</h1>      
+		 	<p>An overview of Bootstrap, how to download and use, basic templates and examples, and more.</p>
+		</div>	
+	</div><!-- MOVE -->
+	</div>
+	<!-- WELL -->
+		<div class="well well-sm" style="font-size: 15px;" >Looking for Bootstrap 2.3.2 docs? We've moved it to a new home while we push forward with Bootstrap 3. Read the blog for details.
+		</div>
+	</div><!-- row -->
+
+	
+	<div class="container" >
+		
+	
+		<ul class="well col-sm-3" >
+			<li><a href="#" style="color: #563d7c" > Download Bootstrap</a></li>
+			<li><a href="#">Download Options</a></li>
+			<li><a href="#">Bootstrap CDN</a></li>
+			<li><a href="#">Basic template</a></li>
+			<li><a href="#">Browser support</a></li>
+			<li><a href="#">License FAQs</a></li>
+			<li><a href="#">License FAQs</a></li>
+		</ul><!-- WELL-SM-3 -->
+	
+	<!-- JUMBOTRON2 -->
+	<div class="jumbotron col-sm-8" style="padding-left: 22.5px;" >
+	  <h2 class="display-4">Download Bootstrap</h2>
+	  <p>There are a few easy ways to quickly get started with Bootstrap, each one appealing to a different skill level and use case. 		Read through to see what suits your particular needs.
+	  </p>
+	  <p>Download compiled CSS and JS
+		The fastest way to get started is to get the compiled and minified versions of our CSS and JavaScript. No documentation or original source files are included.
+	  </p>
+	  <p class="lead">
+	  	<a class="btn btn-primary btn-lg" href="#" role="button">Download Bootstrap</a>
+	  </p>
+
+	<div class="jumbotron jumbotron-fluid">
+   		<h3 class="display-4">Customizing Bootstrapn</h3>
+    	<p>Customizing Bootstrap is best accomplished when you treat it as another dependency in your development stack. Doing soensures future upgrades are as easy as possible while also familiarizing yourself to the intricacies of the framework
+		</p>
+		<p>
+			Once you've downloaded and included Bootstrap's CSS into your templates, you can move on to customizing the included components. To do so, create a new stylesheet (LESS, if you like, or just plain CSS) to house your customization
+	 	</p>
+	</div><!-- jumbotron jumbotron-fluid -->
+
+	<div class="well well-large">
+     	<p class="lead" >Compiled or minified?</p>
+     	<p class="lead" >Unless you plan on reading a good chunk of the compiled CSS, go with the minified. It's the same code, just compacted. Less bandwidth is good, especially in production environments.</p>
+    </div>
+	</div><!-- jumbotron col-sm-8 -->
+	
+	</div><!-- row -->
+
+	<!-- Footer -->
+	<footer class="text-center">
+	  <p> Designed and built with all the love in the world by @mdo and @fat.<br>
+	  Code licensed under Apache License v2.0, documentation under CC BY 3.0.</p> 
+	  <p> Blog  ·  Issues  ·  Releases </p>
+	</footer>
+	</div>
+
+	</div><!-- container -->
+	
+	
+	
+
+
+</body>
+</html>

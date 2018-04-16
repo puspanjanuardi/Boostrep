@@ -1,0 +1,86 @@
+.header {
+	background-color: #563d7c;
+}
+
+.container-fluid {
+    background: #563d7c;
+}
+
+.navbar-default .navbar-brand {
+    color: #fff;
+    padding-right: 80px;
+}
+.navbar-default .navbar-brand:hover {
+    color: #fff;
+    padding-right: 80px;
+}
+
+.navbar-default .navbar-nav>.active>a {
+	 background-color: #463265;	
+}
+.navbar-default .navbar-nav>.active>a {
+	color: #fff;
+}
+.navbar-default .navbar-nav>.active>a:hover {
+	color: #463265;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+}
+.navbar-default .navbar-nav>li>a:hover {
+    color: #fff;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+	color: #fff;
+}
+.navbar-default .navbar-nav > li > a:focus {
+	color: #fff;
+}
+
+
+.modal-footer a {
+	float:left;
+}
+.modal-footer a:hover {
+	text-decoration: none;
+	color:#337ab7;
+}
+
+
+.jumbotron {
+	background-color: #fff;
+	padding-top: 30px;
+	padding-bottom: 20px;
+	font-size: 40px;
+}
+.jumbotron p {
+	font-size: 15px;
+}
+.container .jumbotron, .container-fluid .jumbotron {
+	padding-left: 10px;
+}
+
+.well-sm {
+    font-size: 15.5px;
+}
+.well {
+	list-style: none;
+	background-color: #f7f5fa;
+	border: none;
+}
+.well.col-sm-3 {
+	margin-top: 25px;
+	line-height: 30px;
+}
+.well.col-sm-3 a {
+    color: #000;
+}
+.well.col-sm-3 a:hover {
+	text-decoration: none;
+}
+.navbar-default{
+	background-color: #563d7c;
+	border-color: #563d7c;
+}
